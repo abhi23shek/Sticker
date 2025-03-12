@@ -1,0 +1,91 @@
+/* Container Styling */
+.container111 {
+  width: 99vw;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  /* border: 2px solid black; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin-left: -120px;
+}
+
+.sticker111 {
+  border: 2px solid black;
+  width: 50vw;
+  height: 95vh;
+  align-items: center;
+  justify-items: center;
+}
+
+.carton111 {
+  border: 2px solid black;
+  height: 95vh;
+  align-items: center;
+  width: 50vw;
+  justify-items: center;
+}
+
+/* Input Container */
+.input-container111 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/* Input Field */
+.input-box111 {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Print Button */
+.print-button111 {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.print-button:hover111 {
+  background-color: #0056b3;
+}
+
+/* Search Bar */
+.search-bar111 {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Product List */
+.product-list111 {
+  font-weight: bold;
+  list-style-type: none;
+  padding: 0;
+  max-height: 50vh;
+  overflow-y: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: white;
+}
+
+/* Product Item */
+.product-item111 {
+  /* padding: 10px; */
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.product-item111:hover {
+  background-color: #f1f1f1;
+}

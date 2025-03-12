@@ -1,0 +1,44 @@
+@media print {
+  body {
+    visibility: hidden;
+    margin: 0; /* Remove default margin */
+  }
+  #printThis {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* z-index: 1000; */
+    margin: 0;
+  }
+  @page {
+    size: auto; /* Auto size the page */
+    margin: 0mm; /* Remove margins */
+  }
+}
+
+.page {
+  width: 215.9mm;
+  height: 279.4mm;
+  border: 1px solid black;
+}
+
+button {
+  background-color: rgb(42, 73, 165);
+  color: aliceblue;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  margin-left: 2mm;
+  margin-top: 3.5mm;
+  width: 28.55mm;
+  /* border: 1px solid black; */
+}
+.text {
+  font-weight: bold;
+  font-size: 18px;
+}
