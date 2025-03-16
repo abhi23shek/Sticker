@@ -18,6 +18,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home";
 import Page from "./components/Page";
+import Manage from "./components/Manage";
+import LabelPage from "./components/LabelPage";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/page" element={<Page />} />
+        <Route path="/manage" element={<Manage />} />
+        <Route path="/label" element={<LabelPage />} />
       </Routes>
     </Router>
   );
