@@ -66,16 +66,18 @@ const LabelPage = () => {
                 <div className="tag-image">
                   <img
                     className="tag-image-image"
-                    src="../src/assets/hwc.png"
+                    src="https://i.ibb.co/hRdrd8wf/hwc.png"
                   />
                   <div className="tag-image-text"> HANDLE WITH CARE</div>
                 </div>
               </div>
+              {/* <img src="https://i.ibb.co/fY15hStQ/fragile.png" alt="fragile" border="0">
+<img src="https://i.ibb.co/hRdrd8wf/hwc.png" alt="hwc" border="0"></img> */}
               <div className="second-tag-container">
                 <div className="tag-image">
                   <img
                     className="tag-image-image"
-                    src="../src/assets/fragile.png"
+                    src="https://i.ibb.co/fY15hStQ/fragile.png"
                   />
                   <div className="tag-image-text"> FRAGILE</div>
                 </div>
@@ -100,7 +102,7 @@ const LabelPage = () => {
                 <div className="tag-image">
                   <img
                     className="tag-image-image"
-                    src="../src/assets/hwc.png"
+                    src="https://i.ibb.co/hRdrd8wf/hwc.png"
                   />
                   <div className="tag-image-text"> HANDLE WITH CARE</div>
                 </div>
@@ -109,7 +111,7 @@ const LabelPage = () => {
                 <div className="tag-image">
                   <img
                     className="tag-image-image"
-                    src="../src/assets/fragile.png"
+                    src="https://i.ibb.co/fY15hStQ/fragile.png"
                   />
                   <div className="tag-image-text"> FRAGILE</div>
                 </div>
@@ -138,7 +140,7 @@ const LabelPage = () => {
                 <div className="tag-image">
                   <img
                     className="tag-image-image"
-                    src="../src/assets/hwc.png"
+                    src="https://i.ibb.co/hRdrd8wf/hwc.png"
                   />
                   <div className="tag-image-text"> HANDLE WITH CARE</div>
                 </div>
@@ -147,7 +149,7 @@ const LabelPage = () => {
                 <div className="tag-image">
                   <img
                     className="tag-image-image"
-                    src="../src/assets/fragile.png"
+                    src="https://i.ibb.co/fY15hStQ/fragile.png"
                   />
                   <div className="tag-image-text"> FRAGILE</div>
                 </div>
@@ -172,7 +174,7 @@ const LabelPage = () => {
                 <div className="tag-image">
                   <img
                     className="tag-image-image"
-                    src="../src/assets/hwc.png"
+                    src="https://i.ibb.co/hRdrd8wf/hwc.png"
                   />
                   <div className="tag-image-text"> HANDLE WITH CARE</div>
                 </div>
@@ -181,7 +183,7 @@ const LabelPage = () => {
                 <div className="tag-image">
                   <img
                     className="tag-image-image"
-                    src="../src/assets/fragile.png"
+                    src="https://i.ibb.co/fY15hStQ/fragile.png"
                   />
                   <div className="tag-image-text"> FRAGILE</div>
                 </div>
